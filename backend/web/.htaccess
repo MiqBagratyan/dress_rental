@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Обрабатываем запросы с языковым префиксом
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(ru|en|hy)/?(.*)$ index.php/$2 [L,QSA]
+
+# Обрабатываем все остальные запросы
+RewriteRule . index.php [L]

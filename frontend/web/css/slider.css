@@ -1,0 +1,29 @@
+.banner {
+    width: 100%;
+    position: relative;
+}
+.dr-main-slider .item img {
+    width: 100%;
+    height: auto;
+}
+.text, .text2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+.text h4, .text2 h2 {
+    font-size: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+}
+.text a, .text2 a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff4500;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+}
